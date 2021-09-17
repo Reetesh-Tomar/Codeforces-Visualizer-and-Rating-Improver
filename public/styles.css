@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    /* background: linear-gradient(65deg,cyan,blue); */
+
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+*{
+    outline:none;
+}
+
+
+.mainsearch{
+    margin-top: 10%;
+}
+
+#mainimg{
+    max-width: 60%;
+}
+
+
+
+.search{
+    margin: 50px auto;
+    padding: 10px;
+    /* margin-top: 15%; */
+    text-align: center;
+}
+
+.bar{
+    transition: 0.5s;  
+}
+
+.bar:hover{
+    transform: scale(1.05,1.05);
+}
+
+input{
+    width: 80%;
+    padding-left: 10px;
+    /* margin: 2px; */
+    height: 45px;
+    border:none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 20px gray ,
+                0px 0px 40px  gray
+    ;
+}
+
+
+
+/* MAIN EJS START  */
+
+.details-main{
+    margin: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.overall{
+    background-color: black;
+    color: white;
+    margin: 50px auto;
+    padding: 60px;
+} 
+
+.overinner{
+    margin: 10px auto; 
+    padding: 10px;
+    color: black;
+    transition: 0.2s;
+}
+
+.overinner:hover{
+    transform: scale(1.1,1.1);
+    /* box-shadow: 0px 0px 15px green,
+    0px 0px 30px  green; */
+}
+
+.cardimg{
+    width: 80%;
+    padding-left: 20%;
+}
+
+
+
+/* *** PROBLEMS EJS PAGE ******/
+
+.problem_holder{
+    
+}
+
+.problem_div{
+    text-align: left;
+    margin: 20px auto;
+}
+
+.problem_div_inner{
+    border: 1px solid black;
+}
+
